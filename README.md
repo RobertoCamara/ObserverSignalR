@@ -16,6 +16,6 @@ Exemplo de Projeto utilizando o SignalR para simular um observer
 ### Observação (serão retirados em momento oportuno)
 Estes dois projetos fazem parte da mesma solution, porém não compartilham a teconologia SignalR
 - ListenTCP
- Serviço Windows responsável por ouvir uma comunicação TCP.
+  * Serviço Windows responsável por ouvir uma comunicação TCP.
 - Send/SendTCP
- Serviço Windows responsável por enviar mensagens via TCP
+  * Serviço Windows responsável por enviar mensagens via TCP
