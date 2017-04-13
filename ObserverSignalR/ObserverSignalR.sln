@@ -1,0 +1,108 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GatewayCommunication", "GatewayCommunication\GatewayCommunication.csproj", "{1EE1B3C5-6B47-4C44-93B0-74429EF06573}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListenUDP", "ListenUDP\ListenUDP.csproj", "{C5639FE0-7D52-43A6-9DD2-7B79FA39482F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListenTCP", "ListenTCP\ListenTCP.csproj", "{F739E1FA-E4C0-414D-B92B-31990E4AE63A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Util", "..\..\SolucaoUtil\Util\Util.csproj", "{F1F771FD-57BD-41DD-97AA-36823C190430}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendUDP", "SendUDP\SendUDP.csproj", "{C537DDE4-30A0-4F5C-BEA1-1854F5C10F09}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ObserverHubClients", "ObserverHubClients", "{2BC94AB9-D9C9-4E3A-9A63-0742AE75B85A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverHubClientA", "ObserverHubClientA\ObserverHubClientA.csproj", "{0CB0779B-6B16-4162-AE47-18D2EE6005B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverHubClientB", "ObserverHubClientB\ObserverHubClientB.csproj", "{3CD2B6CC-3DB0-49D7-ACAC-E84561D8D749}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Send", "Send", "{5B40D8FA-68D4-44FE-98E7-C62B26314949}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendTCP", "SendTCP\SendTCP.csproj", "{45A67B11-5BDF-4755-9EC7-96FF15E72883}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1EE1B3C5-6B47-4C44-93B0-74429EF06573}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EE1B3C5-6B47-4C44-93B0-74429EF06573}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EE1B3C5-6B47-4C44-93B0-74429EF06573}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EE1B3C5-6B47-4C44-93B0-74429EF06573}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5639FE0-7D52-43A6-9DD2-7B79FA39482F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5639FE0-7D52-43A6-9DD2-7B79FA39482F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5639FE0-7D52-43A6-9DD2-7B79FA39482F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5639FE0-7D52-43A6-9DD2-7B79FA39482F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F739E1FA-E4C0-414D-B92B-31990E4AE63A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F739E1FA-E4C0-414D-B92B-31990E4AE63A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F739E1FA-E4C0-414D-B92B-31990E4AE63A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F739E1FA-E4C0-414D-B92B-31990E4AE63A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1F771FD-57BD-41DD-97AA-36823C190430}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1F771FD-57BD-41DD-97AA-36823C190430}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1F771FD-57BD-41DD-97AA-36823C190430}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1F771FD-57BD-41DD-97AA-36823C190430}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C537DDE4-30A0-4F5C-BEA1-1854F5C10F09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C537DDE4-30A0-4F5C-BEA1-1854F5C10F09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C537DDE4-30A0-4F5C-BEA1-1854F5C10F09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C537DDE4-30A0-4F5C-BEA1-1854F5C10F09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CB0779B-6B16-4162-AE47-18D2EE6005B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CB0779B-6B16-4162-AE47-18D2EE6005B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CB0779B-6B16-4162-AE47-18D2EE6005B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CB0779B-6B16-4162-AE47-18D2EE6005B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CD2B6CC-3DB0-49D7-ACAC-E84561D8D749}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CD2B6CC-3DB0-49D7-ACAC-E84561D8D749}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CD2B6CC-3DB0-49D7-ACAC-E84561D8D749}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CD2B6CC-3DB0-49D7-ACAC-E84561D8D749}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45A67B11-5BDF-4755-9EC7-96FF15E72883}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45A67B11-5BDF-4755-9EC7-96FF15E72883}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45A67B11-5BDF-4755-9EC7-96FF15E72883}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45A67B11-5BDF-4755-9EC7-96FF15E72883}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C537DDE4-30A0-4F5C-BEA1-1854F5C10F09} = {5B40D8FA-68D4-44FE-98E7-C62B26314949}
+		{0CB0779B-6B16-4162-AE47-18D2EE6005B5} = {2BC94AB9-D9C9-4E3A-9A63-0742AE75B85A}
+		{3CD2B6CC-3DB0-49D7-ACAC-E84561D8D749} = {2BC94AB9-D9C9-4E3A-9A63-0742AE75B85A}
+		{45A67B11-5BDF-4755-9EC7-96FF15E72883} = {5B40D8FA-68D4-44FE-98E7-C62B26314949}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 9
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://racprojects.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = GatewayCommunication\\GatewayCommunication.csproj
+		SccProjectName1 = GatewayCommunication
+		SccLocalPath1 = GatewayCommunication
+		SccProjectUniqueName2 = ListenUDP\\ListenUDP.csproj
+		SccProjectName2 = ListenUDP
+		SccLocalPath2 = ListenUDP
+		SccProjectUniqueName3 = ListenTCP\\ListenTCP.csproj
+		SccProjectName3 = ListenTCP
+		SccLocalPath3 = ListenTCP
+		SccProjectUniqueName4 = ..\\..\\SolucaoUtil\\Util\\Util.csproj
+		SccProjectName4 = ../../SolucaoUtil/Util
+		SccLocalPath4 = ..\\..\\SolucaoUtil\\Util
+		SccProjectUniqueName5 = SendUDP\\SendUDP.csproj
+		SccProjectTopLevelParentUniqueName5 = ObserverSignalR.sln
+		SccProjectName5 = SendUDP
+		SccLocalPath5 = SendUDP
+		SccProjectUniqueName6 = ObserverHubClientA\\ObserverHubClientA.csproj
+		SccProjectTopLevelParentUniqueName6 = ObserverSignalR.sln
+		SccProjectName6 = ObserverHubClientA
+		SccLocalPath6 = ObserverHubClientA
+		SccProjectUniqueName7 = ObserverHubClientB\\ObserverHubClientB.csproj
+		SccProjectTopLevelParentUniqueName7 = ObserverSignalR.sln
+		SccProjectName7 = ObserverHubClientB
+		SccLocalPath7 = ObserverHubClientB
+		SccProjectUniqueName8 = SendTCP\\SendTCP.csproj
+		SccProjectTopLevelParentUniqueName8 = ObserverSignalR.sln
+		SccProjectName8 = SendTCP
+		SccLocalPath8 = SendTCP
+	EndGlobalSection
+EndGlobal
