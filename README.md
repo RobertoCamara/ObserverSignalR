@@ -13,9 +13,4 @@ Exemplo de Projeto utilizando o SignalR para simular um observer
 - ObserverHubClients/ObserverHubClientB
   * Serviço Windows responsável por simular um cliente que ouça métodos do hub             GatewayCommunication, no grupo "other"
 
-### Observação (serão retirados em momento oportuno)
-Estes dois projetos fazem parte da mesma solution, porém não compartilham a teconologia SignalR
-- ListenTCP
-  * Serviço Windows responsável por ouvir uma comunicação TCP.
-- Send/SendTCP
-  * Serviço Windows responsável por enviar mensagens via TCP
+
